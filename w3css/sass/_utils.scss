@@ -1,0 +1,49 @@
+/* Utils */
+
+.w3-block {
+  display: block;
+  width: 100%
+}
+
+.w3-responsive {
+  display: block;
+  overflow-x: auto
+}
+
+.w3-content, .w3-auto {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.w3-content {
+  max-width: 980px
+}
+
+.w3-auto {
+  max-width: 1140px
+}
+
+@media (max-width: 1205px) {
+  .w3-auto {
+    max-width: 95%
+  }
+}
+
+@media (max-width: 992px) {
+  .w3-auto {
+    max-width: 100%
+  }
+}
+
+.w3-disabled {
+  cursor: not-allowed;
+  opacity: 0.3
+}
+
+.w3-disabled *, :disabled * {
+  pointer-events: none
+}
+
+.w3-hover-none:hover {
+  box-shadow: none !important
+}

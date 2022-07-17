@@ -1,0 +1,23 @@
+/* Input */
+
+.w3-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%
+}
+
+.w3-select {
+  padding: 9px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc
+}
+
+.w3-check, .w3-radio {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 6px
+}
